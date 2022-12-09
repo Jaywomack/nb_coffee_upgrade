@@ -1,26 +1,20 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* add @apply styles here */
+
+/* And other global styles here */
+.menu-hero-image {
+	background-image: url('/static/images/outdoor_eating.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.news-hero-image {
+	background-image: url('/static/images/aerial_coffee_shop.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
